@@ -156,5 +156,10 @@ body{
         /* position: fixed; */
         /* width: 100vw; */
     }
+    #theme{
+        position: relative;
+        top: 87px;
+        left: 20px;
+    }
     
 }

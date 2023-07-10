@@ -24,3 +24,12 @@ fetch("Set_Questions.json").then((data)=>{
     console.log(err);
 })
 
+current = 0;
+
+function changeTheme()
+{
+    current = (current + 1) % 3;
+    let url = "url(Background" + current + ".jpg)";
+    document.body.style.backgroundImage = url;
+
+}

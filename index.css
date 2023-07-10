@@ -13,7 +13,8 @@ body{
 .heading{
     text-align: center;
     color: white;
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     font-size: 80px;
     font-weight: 400;
     
@@ -70,22 +71,24 @@ body{
 .set h2{
     position: absolute;
     top: 25%;
-    right: 6%;
+    right: 5%;
 }
 
 .set h4{
     position: absolute;
     bottom: 15%;
-    right: 6%;
+    right: 5%;
 }
 .set h3{
     position: relative;
-    bottom: 12%;
+    bottom: 9%;
+    left: 1%;
 }
 .set p{
     position: relative;
     width: 75%;
     top: 16%;
+    left: 1%;
 }
 
 .set a{

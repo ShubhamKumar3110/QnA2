@@ -28,6 +28,7 @@ body{
 #1c4b26ab;
 #515265b0
 #3f3b3b61
+#ffffff14
 #7d7d7d57 */
 
 #sets{
@@ -68,14 +69,23 @@ body{
 
 .set h2{
     position: absolute;
-    top: 22%;
-    right: 4rem;
+    top: 25%;
+    right: 6%;
 }
 
 .set h4{
     position: absolute;
-    top: 50%;
-    right: 1rem;
+    bottom: 15%;
+    right: 6%;
+}
+.set h3{
+    position: relative;
+    bottom: 12%;
+}
+.set p{
+    position: relative;
+    width: 75%;
+    top: 16%;
 }
 
 .set a{
@@ -108,7 +118,7 @@ body{
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
 }
 
 @media screen and (max-width:800px) {
@@ -117,8 +127,12 @@ body{
     }
     body{
         background-image: url(Background.jpg);
-        background-attachment: fixed;
+        background-attachment: fixed; 
         background-position: center center;
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+        /* position: fixed; */
+        /* width: 100vw; */
     }
     
 }

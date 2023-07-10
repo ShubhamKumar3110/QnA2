@@ -25,11 +25,18 @@ fetch("Set_Questions.json").then((data)=>{
 })
 
 current = 0;
-
 function changeTheme()
 {
-    current = (current + 1) % 3;
-    let url = "url(Background" + current + ".jpg)";
+    current = (current + 1) % 10;
+    let url = "";
+    if(window.innerWidth <= 800)
+    {
+        url = "url(Background" + current + ".jpg)";
+    } else
+    {
+        url = "url(Background_Landslide" + current + ".jpg)";
+    }
+    let currentt = current + 1;
+    document.getElementById("theme").innerText = "Change ◈ Theme " + currentt;
     document.body.style.backgroundImage = url;
-
 }

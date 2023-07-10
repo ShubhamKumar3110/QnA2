@@ -6,7 +6,7 @@
 
 body{
     background-image: url(Background_Landslide.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -117,8 +117,8 @@ body{
     }
     body{
         background-image: url(Background.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
     }
     
 }
